@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const Store = require('./mockStore');
+const Store = require('./mockstore');
 
 require('dotenv').config();
 
