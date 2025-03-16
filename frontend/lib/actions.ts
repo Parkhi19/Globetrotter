@@ -95,7 +95,7 @@ export async function updateUserScore(username: string, correct: boolean): Promi
 export async function getRandomDestination(): Promise<Destination> {
  //fetch from api
  try {
-  const response = await fetch("http://localhost:5000/api/clues");
+  const response = await fetch("https://globetrotter-1-2e6t.onrender.com/api/clues");
   if (!response.ok) {
       throw new Error("Failed to fetch destination");
   }
@@ -111,7 +111,7 @@ export async function getRandomDestination(): Promise<Destination> {
 // Submit Answer
 export async function submitAnswer(questionId: string, userAnswer: string): Promise<AnswerResult> {
   try {
-      const response = await fetch("http://localhost:5000/api/answer", {
+      const response = await fetch("https://globetrotter-1-2e6t.onrender.com/api/answer", {
           method: "POST",
           headers: {
               "Content-Type": "application/json",
