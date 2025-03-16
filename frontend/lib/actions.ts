@@ -1,7 +1,7 @@
 "use server"
 
 import type { Destination, UserProfile, AnswerResult } from "./types"
-import { destinations } from "./destinations"
+// import { destinations } from "./destinations"
 import { revalidatePath } from "next/cache"
 
 // Mock database using server-side memory storage
@@ -93,27 +93,47 @@ export async function updateUserScore(username: string, correct: boolean): Promi
 
 // Get Random Destination
 export async function getRandomDestination(): Promise<Destination> {
-  // In a real app, this would fetch from a database
-  // For this demo, we'll use the static destinations array
-  const randomIndex = Math.floor(Math.random() * destinations.length)
-  return destinations[randomIndex]
+ //fetch from api
+ try {
+  const response = await fetch("http://localhost:5000/api/clues");
+  if (!response.ok) {
+      throw new Error("Failed to fetch destination");
+  }
+  const data = await response.json();
+  return data;
+} catch (error) {
+  console.error("Error fetching destination:", error);
+  throw error;
+}
+
 }
 
 // Submit Answer
-export async function submitAnswer(destinationId: string, answer: string): Promise<AnswerResult> {
-  // Find the destination
-  const destination = destinations.find((d) => d.id === destinationId)
+export async function submitAnswer(questionId: string, userAnswer: string): Promise<AnswerResult> {
+  try {
+      const response = await fetch("http://localhost:5000/api/answer", {
+          method: "POST",
+          headers: {
+              "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ questionId, userAnswer }),
+      });
 
-  if (!destination) {
-    throw new Error("Destination not found")
-  }
+      if (!response.ok) {
+          throw new Error("Failed to submit answer");
+      }
 
-  const isCorrect = destination.correctAnswer === answer
+      const data = await response.json();
 
-  return {
-    correct: isCorrect,
+      return {
+          correct: data.correct, 
+      };
+  } catch (error) {
+      console.error("Error submitting answer:", error);
+      throw error;
   }
 }
+
 
 // Get Leaderboard
 export async function getLeaderboard(): Promise<UserProfile[]> {

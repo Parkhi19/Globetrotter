@@ -23,7 +23,9 @@ export default function Game() {
   const [username, setUsername] = useState<string | null>(null)
   const router = useRouter()
   const { toast } = useToast()
-
+  let ans = "something else"
+  // const correctAnswer =  fetch("http://localhost:5000/api/clues")
+  //get correct ans from api using question id
   useEffect(() => {
     loadNewDestination()
 
@@ -51,6 +53,8 @@ export default function Game() {
 
     try {
       const data = await getRandomDestination()
+      console.log("mai data hu bhai", data)
+      const correctAnswer = data.id
       setDestination(data)
     } catch (error) {
       toast({
@@ -71,7 +75,7 @@ export default function Game() {
     try {
       const result = await submitAnswer(destination.id, answer)
       setIsCorrect(result.correct)
-
+      // ans = result.correct;
       // Update score
       const newScore = {
         correct: score.correct + (result.correct ? 1 : 0),
@@ -158,7 +162,7 @@ export default function Game() {
           <div className="space-y-4 mb-8">
             <h2 className="text-xl font-semibold text-gray-800">Clues:</h2>
             <ul className="list-disc pl-6 space-y-3">
-              {destination.clues.slice(0, 2).map((clue, index) => (
+              {destination?.clues?.slice(0, 2).map((clue, index) => (
                 <li key={index} className="text-lg text-gray-700">
                   {clue}
                 </li>
@@ -167,7 +171,7 @@ export default function Game() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {destination.options.map((option) => (
+            {destination?.options?.map((option) => (
               <Button
                 key={option}
                 onClick={() => handleAnswerSelect(option)}

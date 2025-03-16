@@ -1,10 +1,9 @@
 export interface Destination {
-  id: string
-  name: string
-  clues: string[]
-  options: string[]
-  correctAnswer: string
-  facts: string[]
+ clues : string[];
+ id : string;
+ facts : string[];
+ correctAnswer : string;
+ options : string[]
 }
 
 export interface UserProfile {

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { use } from "react"
 import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
@@ -11,7 +12,7 @@ import { useToast } from "@/hooks/use-toast"
 import Link from "next/link"
 import type { Destination, UserProfile } from "@/lib/types"
 
-export default function ChallengeGame({ params }: { params: { username: string } }) {
+export default function ChallengeGame({ params }: { params: Promise<{ username: string }> }) {
   const [destination, setDestination] = useState<Destination | null>(null)
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
@@ -22,19 +23,18 @@ export default function ChallengeGame({ params }: { params: { username: string }
   const [challenger, setChallenger] = useState<UserProfile | null>(null)
   const router = useRouter()
   const { toast } = useToast()
-  const { username } = params
+
+  // unwrap params promise
+  const { username } = use(params)
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Load challenger profile
         const profile = await getUserProfile(decodeURIComponent(username))
         setChallenger(profile)
 
-        // Load destination
         await loadNewDestination()
 
-        // Load score from localStorage
         const savedScore = localStorage.getItem("globetrotter_score")
         if (savedScore) {
           setScore(JSON.parse(savedScore))
@@ -82,7 +82,6 @@ export default function ChallengeGame({ params }: { params: { username: string }
       const result = await submitAnswer(destination.id, answer)
       setIsCorrect(result.correct)
 
-      // Update score
       const newScore = {
         correct: score.correct + (result.correct ? 1 : 0),
         total: score.total + 1,
@@ -90,13 +89,11 @@ export default function ChallengeGame({ params }: { params: { username: string }
       setScore(newScore)
       localStorage.setItem("globetrotter_score", JSON.stringify(newScore))
 
-      // Show confetti for correct answers
       if (result.correct) {
         setShowConfetti(true)
         setTimeout(() => setShowConfetti(false), 3000)
       }
 
-      // Reveal a random fact
       if (destination.facts && destination.facts.length > 0) {
         const randomFact = destination.facts[Math.floor(Math.random() * destination.facts.length)]
         setRevealedFact(randomFact)
@@ -234,4 +231,3 @@ export default function ChallengeGame({ params }: { params: { username: string }
     </main>
   )
 }
-

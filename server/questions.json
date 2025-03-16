@@ -1,1052 +1,601 @@
 [
-    {
+  {
+      "city": "Paris",
+      "country": "France",
+      "clues": [
+          "This city is home to a famous tower that sparkles every night.",
+          "Known as the 'City of Love' and a hub for fashion and art."
+      ],
+      "fun_fact": [
+          "The Eiffel Tower was initially intended to be dismantled after 20 years but was saved due to its usefulness for radio transmissions.",
+          "Paris has only one stop sign in the entire city; most intersections rely on priority-to-the-right rules."
+      ],
+      "trivia": [
+          "This city is famous for its croissants and macarons. Bon appétit!",
+          "Paris was originally a Roman city called Lutetia."
+      ],
+      "id": 1
+  },
+  {
+      "city": "Tokyo",
+      "country": "Japan",
+      "clues": [
+          "This city has the busiest pedestrian crossing in the world.",
+          "You can visit an entire district dedicated to anime, manga, and gaming."
+      ],
+      "fun_fact": [
+          "Tokyo was originally a small fishing village called Edo before becoming the bustling capital it is today.",
+          "More than 14 million people live in Tokyo, making it one of the most populous cities in the world."
+      ],
+      "trivia": [
+          "The city has over 160,000 restaurants, more than any other city in the world.",
+          "Tokyo’s subway system is so efficient that train delays of just a few minutes come with formal apologies."
+      ],
+      "id": 2
+  },
+  {
+      "city": "New York",
+      "country": "USA",
+      "clues": [
+          "Home to a green statue gifted by France in the 1800s.",
+          "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+      ],
+      "fun_fact": [
+          "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+          "Times Square was once called Longacre Square before being renamed in 1904."
+      ],
+      "trivia": [
+          "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+          "The Empire State Building has its own zip code: 10118."
+      ],
+      "id": 3
+  },
+  {
       "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
+      "country": "UK",
+      "clues": [
+          "This city is home to the famous Big Ben clock tower.",
+          "The River Thames flows through this historic capital."
+      ],
+      "fun_fact": [
+          "Over 300 languages are spoken in London, making it one of the most linguistically diverse cities in the world.",
+          "The London Underground, or 'The Tube,' is the oldest metro system in the world, opening in 1863."
+      ],
+      "trivia": [
+          "London has hosted the Olympics three times (1908, 1948, 2012).",
+          "Buckingham Palace has 775 rooms, including 19 state rooms."
+      ],
+      "id": 4
+  },
+  {
       "city": "Berlin",
       "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
+      "clues": [
+          "This city was once divided by a wall that fell in 1989.",
+          "It is known for its vibrant nightlife and rich history."
+      ],
+      "fun_fact": [
+          "Berlin has more bridges than Venice—over 1,700 in total.",
+          "The Berlin TV Tower is the tallest structure in Germany, standing at 368 meters."
+      ],
+      "trivia": [
+          "Currywurst, a popular street food, was invented in Berlin in 1949.",
+          "Berlin is nine times the size of Paris but has fewer inhabitants."
+      ],
+      "id": 5
+  },
+  {
+      "city": "Sydney",
+      "country": "Australia",
+      "clues": [
+          "Home to an iconic opera house with a sail-like design.",
+          "Famous for its stunning harbour and beaches."
+      ],
+      "fun_fact": [
+          "Sydney Harbour Bridge is the widest long-span bridge in the world.",
+          "The city was originally established as a British penal colony in 1788."
+      ],
+      "trivia": [
+          "Bondi Beach is one of the most famous beaches in the world.",
+          "Sydney hosts the world’s largest New Year's Eve fireworks display."
+      ],
+      "id": 6
+  },
+  {
+      "city": "Dubai",
+      "country": "UAE",
+      "clues": [
+          "This city is home to the tallest building in the world.",
+          "Famous for its luxury shopping and artificial islands."
+      ],
+      "fun_fact": [
+          "Burj Khalifa stands at 828 meters, making it the tallest structure on Earth.",
+          "Dubai has an indoor ski resort inside a shopping mall."
+      ],
+      "trivia": [
+          "Gold ATMs in Dubai dispense real gold bars.",
+          "Dubai's police force has luxury supercars like Lamborghinis and Ferraris."
+      ],
+      "id": 7
+  },
+  {
+      "city": "Rome",
+      "country": "Italy",
+      "clues": [
+          "This city is known as 'The Eternal City.'",
+          "Home to an ancient amphitheater where gladiators once fought."
+      ],
+      "fun_fact": [
+          "The Colosseum could hold up to 50,000 spectators in its prime.",
+          "Vatican City, the world's smallest country, is located within Rome."
+      ],
+      "trivia": [
+          "Rome has more fountains than any other city in the world.",
+          "SPQR, found on Roman monuments, stands for 'The Senate and People of Rome.'"
+      ],
+      "id": 8
+  },
+  {
+      "city": "Singapore",
+      "country": "Singapore",
+      "clues": [
+          "This city is also a country and is known as the 'Lion City.'",
+          "Home to the world-famous Marina Bay Sands hotel and infinity pool."
+      ],
+      "fun_fact": [
+          "Singapore is one of only three city-states in the world.",
+          "It is illegal to sell chewing gum in Singapore."
+      ],
+      "trivia": [
+          "The Changi Airport has a rainforest and waterfall inside.",
+          "Singapore’s national symbol, the Merlion, has the body of a fish and the head of a lion."
+      ],
+      "id": 9
+  },
+  {
+      "city": "Barcelona",
+      "country": "Spain",
+      "clues": [
+          "Known for its unique architecture designed by Antoni Gaudí.",
+          "A popular city for football fans, home to FC Barcelona."
+      ],
+      "fun_fact": [
+          "La Sagrada Família has been under construction since 1882.",
+          "Barcelona has its own version of 'La Rambla,' a famous pedestrian street."
+      ],
+      "trivia": [
+          "Barcelona was the first city to win a Royal Gold Medal for architecture.",
+          "It has one of the largest metropolitan parks in the world, Parc de Collserola."
+      ],
+      "id": 10
+  },
+  {
       "city": "Cairo",
       "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
+      "clues": [
+          "This city is home to one of the Seven Wonders of the Ancient World.",
+          "Located on the banks of the Nile River."
+      ],
+      "fun_fact": [
+          "The Great Pyramid of Giza was the tallest structure in the world for 3,800 years.",
+          "Cairo is often called 'The City of a Thousand Minarets' due to its many mosques."
+      ],
+      "trivia": [
+          "The Egyptian Museum in Cairo holds the treasures of King Tutankhamun.",
+          "Cairo is Africa’s largest city by population."
+      ],
+      "id": 11
+  },
+  {
       "city": "Istanbul",
       "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
+      "clues": [
+          "This city is the only one in the world that spans two continents.",
+          "Known for its famous Blue Mosque and Grand Bazaar."
+      ],
+      "fun_fact": [
+          "Hagia Sophia has served as a church, mosque, and museum.",
+          "The Grand Bazaar has over 4,000 shops, making it one of the largest markets in the world."
+      ],
+      "trivia": [
+          "Istanbul was formerly known as Byzantium and later Constantinople.",
+          "Tulips, now associated with the Netherlands, originated in Istanbul."
+      ],
+      "id": 12
+  },
+  {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "clues": [
+          "This city is famous for tango dancing.",
+          "Known as the 'Paris of South America' due to its architecture and culture."
+      ],
+      "fun_fact": [
+          "Buenos Aires has the widest avenue in the world, Avenida 9 de Julio.",
+          "The Obelisk is one of the city's most famous landmarks."
+      ],
+      "trivia": [
+          "Buenos Aires has more bookstores per person than any other city.",
+          "It is home to one of the most beautiful cemeteries in the world, Recoleta Cemetery."
+      ],
+      "id": 13
+  },
+  {
+      "city": "Seoul",
+      "country": "South Korea",
+      "clues": [
+          "This city is home to K-pop and Korean drama culture.",
+          "Famous for its high-tech industry and traditional palaces."
+      ],
+      "fun_fact": [
+          "Seoul’s subway system is one of the most advanced in the world.",
+          "N Seoul Tower offers panoramic views of the city."
+      ],
+      "trivia": [
+          "The city is home to five UNESCO World Heritage sites.",
+          "Gangnam, made famous by the song 'Gangnam Style,' is a district in Seoul."
+      ],
+      "id": 14
+  },
+  {
+      "city": "Moscow",
+      "country": "Russia",
+      "clues": [
+          "This city is home to a famous red-colored square.",
+          "It has one of the deepest metro systems in the world."
+      ],
+      "fun_fact": [
+          "The Moscow Metro stations are often called 'underground palaces' due to their elaborate decor.",
+          "The Kremlin in Moscow is both a historic fortress and the official residence of the President."
+      ],
+      "trivia": [
+          "Moscow has the largest number of billionaires in Europe.",
+          "The city's famous St. Basil's Cathedral was commissioned by Ivan the Terrible."
+      ],
+      "id": 15
+  },
+  {
       "city": "Bangkok",
       "country": "Thailand",
-      "clues": "['This city is known for its floating markets and vibrant nightlife.', 'Its official name is one of the longest in the world.']",
-      "fun_fact": "['Bangkok is one of the most visited cities in Thailand.', \"The name of Bangkok has historical significance related to Thailand's past.\"]",
-      "trivia": "['Bangkok has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Bangkok dates back centuries.']"
-    },
-    {
-      "city": "Mumbai",
-      "country": "India",
-      "clues": "['Home to Bollywood, India’s film industry.', 'This city was formerly called Bombay until    95.']",
-      "fun_fact": "['Mumbai is one of the most visited cities in India.', \"The name of Mumbai has historical significance related to India's past.\"]",
-      "trivia": "['Mumbai has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Mumbai dates back centuries.']"
-    },
-    {
+      "clues": [
+          "This city is known as the 'Venice of the East' due to its canals.",
+          "Home to the Grand Palace and the Emerald Buddha."
+      ],
+      "fun_fact": [
+          "Bangkok's full ceremonial name is the longest city name in the world.",
+          "It has one of the world's most vibrant street food cultures."
+      ],
+      "trivia": [
+          "Bangkok receives more tourists annually than any other city.",
+          "The city has a floating market where vendors sell goods from boats."
+      ],
+      "id": 16
+  },
+  {
+      "city": "Hong Kong",
+      "country": "China",
+      "clues": [
+          "This city has more skyscrapers than any other in the world.",
+          "It was once a British colony before being returned to China."
+      ],
+      "fun_fact": [
+          "Hong Kong has one of the world's most efficient public transport systems.",
+          "The city hosts a nightly light and sound show called 'A Symphony of Lights'."
+      ],
+      "trivia": [
+          "Dim sum, a famous Cantonese cuisine, originated here.",
+          "Victoria Peak offers the best panoramic view of the city."
+      ],
+      "id": 17
+  },
+  {
+      "city": "Toronto",
+      "country": "Canada",
+      "clues": [
+          "Home to the CN Tower, once the tallest freestanding structure.",
+          "The city is one of the most multicultural in the world."
+      ],
+      "fun_fact": [
+          "Toronto has over 200 ethnic groups and 180 languages spoken.",
+          "The underground PATH system is the largest underground shopping complex in the world."
+      ],
+      "trivia": [
+          "The Toronto Raptors won the NBA Championship in 2019.",
+          "Toronto is often used as a filming location for New York City in movies."
+      ],
+      "id": 18
+  },
+  {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "clues": [
+          "Built on an ancient Aztec city, Tenochtitlan.",
+          "It has one of the largest public squares in the world, Zócalo."
+      ],
+      "fun_fact": [
+          "Mexico City sinks about 10 inches each year due to its soft lakebed foundation.",
+          "The city has more museums than any other in the world."
+      ],
+      "trivia": [
+          "It has the largest number of taxis in the world.",
+          "Mexico City was originally built on an island in Lake Texcoco."
+      ],
+      "id": 19
+  },
+  {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "clues": [
+          "This city is known for its yellow trams and historic streets.",
+          "One of the oldest cities in Western Europe."
+      ],
+      "fun_fact": [
+          "Lisbon was almost completely destroyed by an earthquake in 1755.",
+          "It is built on seven hills, offering great viewpoints."
+      ],
+      "trivia": [
+          "Lisbon's Torre de Belém is a UNESCO World Heritage site.",
+          "The city is home to the oldest operating bookstore in the world."
+      ],
+      "id": 20
+  },
+  {
+      "city": "Vienna",
+      "country": "Austria",
+      "clues": [
+          "This city is known as the 'City of Music' due to its classical composers.",
+          "Home to one of the world’s most famous coffeehouse cultures."
+      ],
+      "fun_fact": [
+          "Vienna was the home of Mozart, Beethoven, and Schubert.",
+          "The city has been ranked as one of the world's most livable cities for years."
+      ],
+      "trivia": [
+          "The Vienna Opera Ball is one of the most prestigious events in Europe.",
+          "Sachertorte, a famous chocolate cake, was invented here."
+      ],
+      "id": 21
+  },
+  {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "clues": [
+          "This city is famous for its canals and bicycles.",
+          "Home to the Anne Frank House and Van Gogh Museum."
+      ],
+      "fun_fact": [
+          "Amsterdam has more bicycles than residents.",
+          "The city's canals stretch over 100 kilometers."
+      ],
+      "trivia": [
+          "It has over 1,500 bridges, more than Venice.",
+          "Amsterdam's houses are built on wooden stilts due to soft ground."
+      ],
+      "id": 22
+  },
+  {
+      "city": "Athens",
+      "country": "Greece",
+      "clues": [
+          "The birthplace of democracy and home to the Acropolis.",
+          "One of the world's oldest continuously inhabited cities."
+      ],
+      "fun_fact": [
+          "Athens has been inhabited for over 3,000 years.",
+          "The first modern Olympic Games were held here in 1896."
+      ],
+      "trivia": [
+          "The Parthenon was originally painted in bright colors.",
+          "Ancient Greek theater originated in Athens."
+      ],
+      "id": 23
+  },
+  {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "clues": [
+          "Built on 14 islands connected by over 50 bridges.",
+          "Home to the Nobel Prize ceremonies."
+      ],
+      "fun_fact": [
+          "Stockholm is often called the 'Venice of the North'.",
+          "The city's metro stations are considered an underground art gallery."
+      ],
+      "trivia": [
+          "Stockholm has more saunas than cars.",
+          "ABBA, the famous music group, originated here."
+      ],
+      "id": 24
+  },
+  {
+      "city": "Cape Town",
+      "country": "South Africa",
+      "clues": [
+          "Famous for Table Mountain and stunning beaches.",
+          "One of the three capital cities of South Africa."
+      ],
+      "fun_fact": [
+          "Cape Town was the first city outside Europe to get Blue Flag status for its beaches.",
+          "The city has one of the world's most beautiful coastal drives, Chapman's Peak."
+      ],
+      "trivia": [
+          "Cape Town's Kirstenbosch Gardens are among the most famous botanical gardens.",
+          "Nelson Mandela was imprisoned on Robben Island, located nearby."
+      ],
+      "id": 25
+  },
+  {
       "city": "Los Angeles",
       "country": "USA",
-      "clues": "['Known for Hollywood and its entertainment industry.', 'Its beaches and sunshine attract millions of visitors yearly.']",
-      "fun_fact": "['Los Angeles is one of the most visited cities in USA.', \"The name of Los Angeles has historical significance related to USA's past.\"]",
-      "trivia": "['Los Angeles has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Los Angeles dates back centuries.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
+      "clues": [
+          "This city is home to Hollywood, the center of the film industry.",
+          "Famous for its sunny beaches and entertainment industry."
+      ],
+      "fun_fact": [
+          "Los Angeles has more than 100 museums, making it a cultural hotspot.",
+          "The Hollywood sign originally read 'Hollywoodland' when it was built in 1923."
+      ],
+      "trivia": [
+          "LAX is one of the busiest airports in the world.",
+          "Griffith Observatory offers a stunning view of the city and the stars."
+      ],
+      "id": 26
+  },
+  {
+      "city": "Madrid",
+      "country": "Spain",
+      "clues": [
+          "This city is the capital of Spain.",
+          "Home to the Prado Museum and the Royal Palace."
+      ],
+      "fun_fact": [
+          "Madrid is the highest capital city in Europe at 667 meters above sea level.",
+          "The world's oldest restaurant, Sobrino de Botín, is located here."
+      ],
+      "trivia": [
+          "Madrid has the world's second-largest metro system after London.",
+          "El Retiro Park was once reserved exclusively for Spanish royalty."
+      ],
+      "id": 27
+  },
+  {
+      "city": "San Francisco",
+      "country": "USA",
+      "clues": [
+          "This city is famous for its iconic Golden Gate Bridge.",
+          "Known for its steep hills and historic cable cars."
+      ],
+      "fun_fact": [
+          "San Francisco was almost completely destroyed by an earthquake in 1906.",
+          "Alcatraz Island was once home to a maximum-security prison."
+      ],
+      "trivia": [
+          "Fortune cookies were invented in San Francisco, not China.",
+          "The city has the largest Chinatown outside of Asia."
+      ],
+      "id": 28
+  },
+  {
+      "city": "Shanghai",
+      "country": "China",
+      "clues": [
+          "This city is China's financial capital and has a famous skyline.",
+          "Home to the Bund, a historic waterfront area."
+      ],
+      "fun_fact": [
+          "Shanghai has the world's fastest commercial train, the Maglev, which reaches speeds of 430 km/h.",
+          "The Oriental Pearl Tower is one of the most recognizable landmarks in the world."
+      ],
+      "trivia": [
+          "Shanghai has a Disneyland park that is one of the largest in the world.",
+          "The city was once known as the 'Paris of the East'."
+      ],
+      "id": 29
+  },
+  {
+      "city": "Mumbai",
+      "country": "India",
+      "clues": [
+          "This city is India's financial capital and home to Bollywood.",
+          "Gateway of India is one of its most famous landmarks."
+      ],
+      "fun_fact": [
+          "Mumbai was originally a group of seven islands before land reclamation connected them.",
+          "Dabbawalas in Mumbai deliver 200,000 lunchboxes daily with an error rate of 1 in 16 million."
+      ],
+      "trivia": [
+          "Chhatrapati Shivaji Terminus is a UNESCO World Heritage site.",
+          "Mumbai’s Marine Drive is called the 'Queen’s Necklace' due to its lights at night."
+      ],
+      "id": 30
+  },
+  {
+      "city": "Chicago",
+      "country": "USA",
+      "clues": [
+          "This city is known as the 'Windy City'.",
+          "Home to the deep-dish pizza and famous skyline."
+      ],
+      "fun_fact": [
+          "Chicago River is the only river in the world that flows backward.",
+          "The first-ever skyscraper was built in Chicago in 1885."
+      ],
+      "trivia": [
+          "The city’s O'Hare Airport is one of the busiest in the world.",
+          "Chicago’s ‘L’ train system is one of the oldest in the U.S."
+      ],
+      "id": 31
+  },
+  {
       "city": "Dubai",
       "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London 71",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney 72",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbulx",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    },
-    {
-      "city": "London",
-      "country": "United Kingdom",
-      "clues": "['This city has a famous clock tower that many mistake for its bell’s name.', 'The River Thames flows through its heart, with historic bridges crossing it.']",
-      "fun_fact": "['Big Ben actually refers to the bell inside the tower, not the clock itself.', 'London has over 170 museums, including the British Museum, which is free to enter.']",
-      "trivia": "['Red double-decker buses and black cabs are iconic symbols of this city.', \"London Underground is the world's oldest metro system, opening in 1863.\"]"
-    },
-    {
-      "city": "Sydney",
-      "country": "Australia",
-      "clues": "['This city is home to an opera house with a unique sail-like design.', 'Its famous harbor bridge is often climbed by adventurous visitors.']",
-      "fun_fact": "['The Sydney Opera House took 14 years to build and cost over $100 million.', 'Sydney’s Bondi Beach is one of the most famous surf spots in the world.']",
-      "trivia": "['Kangaroos and koalas can be found in the nearby Blue Mountains National Park.', 'Sydney was the first European settlement in Australia, founded in 1788.']"
-    },
-    {
-      "city": "Dubai",
-      "country": "UAE",
-      "clues": "['This city has the tallest building in the world, towering over 828 meters.', 'A man-made island shaped like a palm tree can be seen from space.']",
-      "fun_fact": "['Dubai was a small fishing village before transforming into a global metropolis.', 'The city has a police force that includes luxury cars like Lamborghinis.']",
-      "trivia": "['Dubai Mall is one of the largest shopping malls in the world with over 1,200 stores.', 'Despite being in a desert, Dubai has an indoor ski resort.']"
-    },
-    {
-      "city": "Rome",
-      "country": "Italy",
-      "clues": "['An ancient city famous for gladiator battles and grand architecture.', 'Home to a tiny independent country within its borders.']",
-      "fun_fact": "['Rome is one of the most visited cities in Italy.', \"The name of Rome has historical significance related to Italy's past.\"]",
-      "trivia": "['Rome has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rome dates back centuries.']"
-    },
-    {
-      "city": "Berlin",
-      "country": "Germany",
-      "clues": "['A city once divided by a wall, now a symbol of unity.', 'Known for its vibrant nightlife and techno music scene.']",
-      "fun_fact": "['Berlin is one of the most visited cities in Germany.', \"The name of Berlin has historical significance related to Germany's past.\"]",
-      "trivia": "['Berlin has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Berlin dates back centuries.']"
-    },
-    {
-      "city": "Moscow",
-      "country": "Russia",
-      "clues": "['This city features colorful onion-domed cathedrals.', 'The capital of the largest country in the world by land area.']",
-      "fun_fact": "['Moscow is one of the most visited cities in Russia.', \"The name of Moscow has historical significance related to Russia's past.\"]",
-      "trivia": "['Moscow has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Moscow dates back centuries.']"
-    },
-    {
-      "city": "Cairo",
-      "country": "Egypt",
-      "clues": "['Home to one of the last remaining Seven Wonders of the World.', 'A city where ancient pyramids meet a bustling metropolis.']",
-      "fun_fact": "['Cairo is one of the most visited cities in Egypt.', \"The name of Cairo has historical significance related to Egypt's past.\"]",
-      "trivia": "['Cairo has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Cairo dates back centuries.']"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "country": "Brazil",
-      "clues": "['Famous for its giant Christ the Redeemer statue.', 'This city hosts the world’s biggest carnival festival.']",
-      "fun_fact": "['Rio de Janeiro is one of the most visited cities in Brazil.', \"The name of Rio de Janeiro has historical significance related to Brazil's past.\"]",
-      "trivia": "['Rio de Janeiro has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Rio de Janeiro dates back centuries.']"
-    },
-    {
-      "city": "Toronto",
-      "country": "Canada",
-      "clues": "['A multicultural city with a CN Tower that dominates the skyline.', 'Canada’s largest city and financial hub.']",
-      "fun_fact": "['Toronto is one of the most visited cities in Canada.', \"The name of Toronto has historical significance related to Canada's past.\"]",
-      "trivia": "['Toronto has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Toronto dates back centuries.']"
-    },
-    {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "clues": "['A city that straddles two continents: Europe and Asia.', 'Once known as Constantinople, it was the heart of the Byzantine Empire.']",
-      "fun_fact": "['Istanbul is one of the most visited cities in Turkey.', \"The name of Istanbul has historical significance related to Turkey's past.\"]",
-      "trivia": "['Istanbul has a vibrant food scene famous for its local delicacies.', 'One of the oldest buildings in Istanbul dates back centuries.']"
-    }
-  ]
+      "clues": [
+          "This city is home to the tallest building in the world.",
+          "Famous for its luxury shopping and artificial islands."
+      ],
+      "fun_fact": [
+          "Burj Khalifa stands at 828 meters, making it the tallest structure on Earth.",
+          "Dubai has an indoor ski resort inside a shopping mall."
+      ],
+      "trivia": [
+          "Gold ATMs in Dubai dispense real gold bars.",
+          "Dubai's police force has luxury supercars like Lamborghinis and Ferraris."
+      ],
+      "id": 32
+  },
+  {
+      "city": "Prague",
+      "country": "Czechia",
+      "clues": [
+          "This city is known as the 'City of a Hundred Spires'.",
+          "Home to one of the world’s most famous astronomical clocks."
+      ],
+      "fun_fact": [
+          "The Prague Castle is the largest ancient castle in the world.",
+          "Charles Bridge is said to be haunted by medieval spirits."
+      ],
+      "trivia": [
+          "Beer is cheaper than water in many places in Prague.",
+          "Prague has one of the best-preserved medieval city centers in Europe."
+      ],
+      "id": 33
+  },
+  {
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "clues": [
+          "The capital of Vietnam, known for its Old Quarter.",
+          "Hoan Kiem Lake is a famous landmark in the city."
+      ],
+      "fun_fact": [
+          "Hanoi is more than 1,000 years old.",
+          "The city has a unique coffee culture, including egg coffee."
+      ],
+      "trivia": [
+          "The Temple of Literature was Vietnam’s first national university.",
+          "The French Quarter in Hanoi showcases colonial-era architecture."
+      ],
+      "id": 34
+  },
+  {
+      "city": "Oslo",
+      "country": "Norway",
+      "clues": [
+          "This city is known for its Viking heritage.",
+          "Home to the Nobel Peace Prize ceremony."
+      ],
+      "fun_fact": [
+          "Oslo has a sculpture park dedicated entirely to human forms.",
+          "The city has some of the cleanest air of any capital in the world."
+      ],
+      "trivia": [
+          "Oslo’s Opera House allows visitors to walk on its roof.",
+          "Norway's currency, the Krone, features famous explorers and ships."
+      ],
+      "id": 35
+  }
+
+]
+
+
+
